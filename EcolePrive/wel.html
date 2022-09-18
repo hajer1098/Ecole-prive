@@ -1,0 +1,404 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<html>
+   <head>
+      <title>SCHOOL</title>
+      <meta charset="UTF-8">
+      <meta name="application-name" content="evernote">
+      <meta name="description" content="best note taking app">
+      <meta name="keywords" content="notetaking,evernote">
+      <meta name="author" content="veena shree">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+header {
+	max-height: 130px;
+}
+
+.heading {
+	padding: 0px;
+	margin-top: 0px;
+}
+
+.home {
+	margin-left: 71px;
+}
+
+.navbar-header.logo {
+	margin-top: 30px;
+}
+
+ul.nav.navbar-nav {
+	margin-top: 40px;
+}
+
+a:hover {
+	color: #00a82d;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.login-wrapper {
+	
+	margin-top: 46px;
+}
+
+.sign {
+	
+	color: green;
+	margin-right: 15px;
+	font-weight: 100;
+	font-size: 16;
+}
+
+.btn-default {
+	color: #333;
+	background-color: #fff;
+}
+
+.log-btn {
+	margin-right: 50px;
+	margin-left: 20px;
+	width: 121px;
+	border: solid green 2px;
+	color: green;
+}
+
+.bg-color {
+	background-image: url("https://evernote.com/img/backgrounds/patterns/main-green.png");
+	background-repeat: repeat;
+}
+
+.bg-color.green {
+	background-color: #00a82d;
+}
+
+.content-wrapper {
+	height: 618px;
+}
+
+.font {
+	
+	display: block;
+	font-size: 56px;
+	line-height: 72px;
+	color: white;
+}
+
+.description {
+	
+	font-size: 24px;
+	line-height: 40px;
+	margin-bottom: 35px;
+	color: white;
+}
+
+.arrange-content {
+	padding-top: 128px;
+}
+
+.left-pad {
+	padding-left: 65px;
+}
+
+.laptop {
+	width: 91.7%;
+}
+
+.image {
+	display: inline-block;
+}
+
+.design {
+	color: green;
+	width: 242px;
+	height: 57px;
+	font-weight: bold;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+	.font {
+		font-family: 'Lato', sans-serif;
+		display: block;
+		font-size: 25px;
+		line-height: 36px;
+		color: white;
+	}
+	.laptop {
+		display: none;
+	}
+}
+      </style>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar home">
+            <div class="container-fluid">
+               <div class="navbar-header logo" >
+                  <img src="https://lh3.googleusercontent.com/-k6lq2mJFWAU/W6iyXfJ6EGI/AAAAAAAAACI/VP1FFXPhG5wEV3RXIPXtZE4_y5na6HzxQCL0BGAYYCw/h68/evernote%2Blogo.PNG" alt="logo" class="pull-left">
+                  <a class="navbar-brand" href="#" >
+                     <h2 class="heading"><b>Evernote</b></h2>
+                  </a>
+               </div>
+               <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">EMPLOIS DES GROUPES <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">BASIC</a></li>
+                        <li><a href="#">BUSINESS</a></li>
+                        <li><a href="#">PREMIUM</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">ARTICLES <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">WEB CLIPPER</a></li>
+                        <li><a href="#">SPACES</a></li>
+                        <li><a href="#">TEMPLATES</a></li>
+                        <li><a href="#">INTEGRATIONS</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">HELP & LEARNING</a></li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">ABOUT EVERNOTE</a></li>
+                        <li><a href="#">PRESS</a></li>
+                        <li><a href="#">INCLUSION & DIVERSITY</a></li>
+                        <li><a href="#">CAREERS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">CONTACTS</a></li>
+               </ul>
+               <div class="login-wrapper pull-right">
+                  <a class="sign" href="#">Sign up </a> 
+                  or
+                  <button type="button" class="btn btn-default btn-md log-btn">Log  In</button>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+
+      <center>
+        <br><br>
+        <h2>Créer un compte</h2>
+        
+                <hr width="700">
+                    <center>
+                    <div class="jumbotron">
+                     <h4>Choisir le type de compte:</h4>
+                     <a  class="lienL"href="RegistreEnseignant.html">Enseignant</a>
+                      <BR>
+                    <a  class="lienL" href="RegistreEleve.html">Eléve</a>
+                     </div>
+                 </div>
+                 </center>
+           </center>
+                    
+    
+      <!-- Footer -->
+      <div class="bg-dark" >
+<footer class="bg-dark text-center text-white">
+   <!-- Grid container -->
+   <div class="container p-4">
+     <!-- Section: Social media -->
+     <section class="mb-4">
+       <!-- Facebook -->
+       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i class="fab fa-facebook-f"></i
+       ></a>
+ 
+       <!-- Twitter -->
+       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i class="fab fa-twitter"></i
+       ></a>
+ 
+       <!-- Google -->
+       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i class="fab fa-google"></i
+       ></a>
+ 
+       <!-- Instagram -->
+       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i class="fab fa-instagram"></i
+       ></a>
+ 
+       <!-- Linkedin -->
+       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i class="fab fa-linkedin-in"></i
+       ></a>
+ 
+       <!-- Github -->
+       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i class="fab fa-github"></i
+       ></a>
+     </section>
+     <!-- Section: Social media -->
+ 
+     <!-- Section: Form -->
+     <section class="">
+       <form action="">
+         <!--Grid row-->
+         <div class="row d-flex justify-content-center">
+           <!--Grid column-->
+           <div class="col-auto">
+             <p class="pt-2">
+               <strong>Sign up for our newsletter</strong>
+             </p>
+           </div>
+           <!--Grid column-->
+ 
+           <!--Grid column-->
+           <div class="col-md-5 col-12">
+             <!-- Email input -->
+             <div class="form-outline form-white mb-4">
+               <input type="email" id="form5Example21" class="form-control" />
+               <label class="form-label" for="form5Example21">Email address</label>
+             </div>
+           </div>
+           <!--Grid column-->
+ 
+           <!--Grid column-->
+           <div class="col-auto">
+             <!-- Submit button -->
+             <button type="submit" class="btn btn-outline-light mb-4">
+               Subscribe
+             </button>
+           </div>
+           <!--Grid column-->
+         </div>
+         <!--Grid row-->
+       </form>
+     </section>
+     <!-- Section: Form -->
+ 
+     <!-- Section: Text -->
+     <section class="mb-4">
+       <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+         repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+         eum harum corrupti dicta, aliquam sequi voluptate quas.
+       </p>
+     </section>
+     <!-- Section: Text -->
+ 
+     <!-- Section: Links -->
+     <section class="">
+       <!--Grid row-->
+       <div class="row">
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">Links</h5>
+ 
+           <ul class="list-unstyled mb-0">
+             <li>
+               <a href="#!" class="text-white">Link 1</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 2</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 3</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 4</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+ 
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">Links</h5>
+ 
+           <ul class="list-unstyled mb-0">
+             <li>
+               <a href="#!" class="text-white">Link 1</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 2</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 3</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 4</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+ 
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">Links</h5>
+ 
+           <ul class="list-unstyled mb-0">
+             <li>
+               <a href="#!" class="text-white">Link 1</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 2</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 3</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 4</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+ 
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">Links</h5>
+ 
+           <ul class="list-unstyled mb-0">
+             <li>
+               <a href="#!" class="text-white">Link 1</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 2</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 3</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">Link 4</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+       </div>
+       <!--Grid row-->
+     </section>
+     <!-- Section: Links -->
+   </div>
+   <!-- Grid container -->
+ 
+   <!-- Copyright -->
+   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+     © 2020 Copyright:
+     <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+   </div>
+   <!-- Copyright -->
+ </footer>
+ </div>
+ <!-- Footer -->
+ 
+   </body>
+</html>
